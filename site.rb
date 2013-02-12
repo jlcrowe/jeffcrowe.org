@@ -17,7 +17,7 @@ helpers do
     %%<a href="#{swfurl}" class="various fancybox.iframe" rel="fancygroup"><img src="#{thumburl}" height="150" width="150"></a>%
   end
 
-  def vidlink(name, thumb, videoid)
+  def vidlink(name, videoid)
     youtubeurl = "http://www.youtube-nocookie.com/embed/#{videoid}?autoplay=1&rel=0"
     thumburl = "http://img.youtube.com/vi/#{videoid}/3.jpg"
     %%<a href="#{youtubeurl}" class="various fancybox.iframe" rel="fancygroup"><img src="#{thumburl}" height="150" width="150"></a>%
