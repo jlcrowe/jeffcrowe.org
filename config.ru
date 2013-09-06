@@ -1,3 +1,5 @@
+require 'rack'
+require 'rack/static'
 use Rack::Static, root: "public",
                   urls: %w[
                     /flash
